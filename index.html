@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./script.js"></script>
+        <title>Game</title>
+    </head>
+    <body onload="startGame()"
+        onmousedown="accelerate(-0.2,'./image/pig_fly.png')"
+        onmouseup="accelerate(0.1, './image/pig_default.png')">
+        <button onclick="restartgame()">Restart</button>
+        <!-- <div id="btn">
+            <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.1)"
+                ontouchstart="move('up')" class="sub-btn">Up</button><br>
+            <button onmousedown="move('left')" onmouseup="stopMove()"
+                ontouchstart="move('left')" class="sub-btn">Left</button>
+            <button onmousedown="move('right')" onmouseup="stopMove()"
+                ontouchstart="move('right')" class="sub-btn">Right</button><br>
+            <button onmousedown="move('down')" onmouseup="stopMove()"
+                ontouchstart="move('down')" class="sub-btn">Down</button>
+        </div> -->
+    </body>
+</html>
